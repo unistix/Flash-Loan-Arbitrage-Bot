@@ -1,0 +1,27 @@
+//generally this is all you really need to grab a bunch of WETH from Balancer (solidity code)
+// Tell Balancer we want 80,000 WETH from them
+    address[] memory tokens = new address[](1);
+    uint256[] memory amounts = new uint256[](1);
+    tokens[0] = address(WETH);
+    amounts[0] = 80000 ether;
+
+    // Request the flash loan
+    // This function call will also call `receiveFlashLoan`
+    // that we will write shortly
+    BalancerVault.flashLoan(address(this), tokens, amounts, "");
+//and then pay it back like 
+WETH.deposit{value: 80000 ether}();
+WETH.transfer(address(BalancerVault), 80000 ether);
+//if you want multiple tokens just add multiple things to the tokens and amounts arrays
+//and you need a function like this in your contract which Balancer will callback into after you get the flash loan
+
+function receiveFlashLoan(
+    address[] memory,
+    uint256[] memory,
+    uint256[] memory,
+    bytes memory
+) external {}
+
+
+
+//this is where you do your whatever you need to do and pay back at the end 
