@@ -9,7 +9,7 @@ const owner = "0x0040DEf8786BE2f596E9b74d50Ae3eC4A3bFa446"
 const apeRouter ="0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
 const sushiRouter ="0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
 const token0 = "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270" //MATIC
-const token1 ="0xbbba073c31bf03b8acf7c28ef0738decf3695683" //USDC
+const token1 ="0xbbba073c31bf03b8acf7c28ef0738decf3695683" //SAND
 
 describe("Flash Loans", function () { //describe is a testing convention from chai it allows the user to specify the goal of a test using it 
   it("Should deploy the flash swap contract and run a test swap", async function () {
