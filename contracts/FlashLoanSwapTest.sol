@@ -114,19 +114,19 @@ contract FlashLoanSwapTest is FlashLoanSimpleReceiverBase { //base contract whic
         return amountOut;
     }
 
-    function makeArbitrage(uint256 amount, FlashParams memory flashParams) public { //could be worth passing in variables here
+    function makeArbitrage(uint256 amount, address[] memory flashParams) public { //could be worth passing in variables here
        
 
-        //amountIN
         
-            uint256 amountOut = _swap(
+            //pass in flashparams list values and amount to get amount out 
+            uint256 amountOut = _swap( 
                 amount,
-                flashParams.routerAddress0,
-                flashParams.token0,
-                flashParams.token1
+                flashParams[2],
+                flashParams[0],
+                flashParams[1]
             );
 
-            _swap(amountOut, flashParams.routerAddress0, flashParams.token1,flashParams.token0);
+            _swap(amountOut, flashParams[3], flashParams[1],flashParams[0]);
         
     }
     
@@ -156,14 +156,15 @@ contract FlashLoanSwapTest is FlashLoanSimpleReceiverBase { //base contract whic
     
     //_swap
 
-    //make arbitrage in a single direction 
-    struct FlashParams {
+    /*
+      struct FlashParams {
         address token0; 
         address token1;
         address routerAddress0; //initial router address
         address routerAddress1; //revert router address router address
     
-    }
+    } */
+  
 
     
 
@@ -172,17 +173,14 @@ contract FlashLoanSwapTest is FlashLoanSimpleReceiverBase { //base contract whic
         uint256 amount,
         uint256 premium,
         address initiator,
-        bytes calldata params
+        bytes calldata params //list of addresses to be passed in 
     ) external returns (bool) {
         // do things like arbitrage here 
         // abi.decode(params) to decode params
        
         
-        //just handle it using make arbitrage
-        // if you compare price and don't change things you'll have an easier time debugging and it wont revert as much
-        //and you wont have to pass in any more params 
-        //decode the parameters for use
-        (FlashParams memory flashParams) = abi.decode(params, (FlashParams));
+        
+        (address[] memory flashParams) = abi.decode(params, (address[]));  //params = [token0,token1,router0,router1]
 
 
         //SWAP

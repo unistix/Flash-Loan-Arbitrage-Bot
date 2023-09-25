@@ -4,7 +4,7 @@ const hre = require("hardhat");
 const { DAI, DAI_WHALE, POOL_ADDRESS_PROVIDER } = require("../config");
 
 describe("Flash Loans", function () { //describe is a testing convention from chai it allows the user to specify the goal of a test using it 
-  it("Should take a flash loan and be able to return it", async function () {
+  it("Should take a test flash loan and be able to return it", async function () {
     const FlashLoanExample = await hre.ethers.getContractFactory(
       "FlashLoanExample"
     );
