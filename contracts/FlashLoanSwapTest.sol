@@ -114,19 +114,19 @@ contract FlashLoanSwapTest is FlashLoanSimpleReceiverBase { //base contract whic
         return amountOut;
     }
 
-    function makeArbitrage(uint256 amount, address[] memory flashParams) public { //could be worth passing in variables here
+    function makeArbitrage(uint256 amount, address token0, address token1, address router0, address router1) public { //could be worth passing in variables here
        
 
         
             //pass in flashparams list values and amount to get amount out 
             uint256 amountOut = _swap( 
                 amount,
-                flashParams[2],
-                flashParams[0],
-                flashParams[1]
+                router0,
+                token0,
+                token1
             );
 
-            _swap(amountOut, flashParams[3], flashParams[1],flashParams[0]);
+            _swap(amountOut, router1, token1,token0);
         
     }
     
@@ -180,11 +180,11 @@ contract FlashLoanSwapTest is FlashLoanSimpleReceiverBase { //base contract whic
        
         
         
-        (address[] memory flashParams) = abi.decode(params, (address[]));  //params = [token0,token1,router0,router1]
+        (address token0, address token1, address router0, address router1) = abi.decode(params, (address, address, address, address));  //params = [token0,token1,router0,router1]
 
 
         //SWAP
-        makeArbitrage(amount,flashParams);//you haven't actuall pass anything from params into here
+        makeArbitrage(amount,token0,token1,router0,router1);//you haven't actuall pass anything from params into here
 
         //RETURN MONEY
         uint256 amountOwing = amount + premium;

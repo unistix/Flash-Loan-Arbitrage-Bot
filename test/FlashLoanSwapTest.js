@@ -6,8 +6,8 @@ const web3 = require('web3')
 
 const { POOL_ADDRESS_PROVIDER } = require("../config");
 const owner = "0x0040DEf8786BE2f596E9b74d50Ae3eC4A3bFa446"
-const apeRouter ="0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
-const sushiRouter ="0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
+const router0 ="0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607" //aperouter
+const router1 ="0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506" //sushirouter
 const token0 = "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270" //MATIC
 const token1 ="0xbbba073c31bf03b8acf7c28ef0738decf3695683" //USDC
 
@@ -53,22 +53,26 @@ describe("Flash Loans", function () { //describe is a testing convention from ch
    
     
     //get params from subgraph data 
-    const params = [token0,token1,sushiRouter,apeRouter]
+    //const params = [token0,token1,sushiRouter,apeRouter]
     //hre.ethers.utils.defaultAbiCoder.encode(
-    const encoded_params = web3.eth.abi.encodeParameters(
+    /*const encoded_params = web3.eth.abi.encodeParameters(
         ['address[]'],
         [params]
-      )
+      )*/
+
+    let abiCoder = hre.ethers.utils.defaultAbiCoder
+
+    const params = abiCoder.encode([address,address,address,address],[token0,token1,router0,router1])
 
 
     try{
-      const txn = await flashLoanExample.createFlashLoan(token0, 10000,encoded_params); 
+      const txn = await flashLoanExample.createFlashLoan(token0, 10000,params); 
       console.log(txn)
       await txn.wait();
       
       }catch(err){
         console.log(err)
-        console.log("transaction reverted due to reason")
+       
         
         //make arbitrage and create flash loan might be the main issue here.
       }
