@@ -1,0 +1,3 @@
+{"subgraphs":[{"name":"SushiSwap","url":"https://api.thegraph.com/subgraphs/name/messari/sushiswap-polygon"},
+{"name":"Honeyswap","url":"https://api.thegraph.com/subgraphs/name/messari/honeyswap-polygon"},
+{"name":"ApeSwap","url":"https://api.thegraph.com/subgraphs/name/messari/apeswap-polygon"}]}

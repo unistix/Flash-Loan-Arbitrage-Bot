@@ -1,6 +1,6 @@
 const { expect, assert } = require("chai");
 const hre = require("hardhat");
-const web3 = require('web3')
+const {ethers} = require("hardhat")
 
 //const { DAI, DAI_WHALE, POOL_ADDRESS_PROVIDER } = require("../config");
 
@@ -17,6 +17,8 @@ describe("Flash Loans", function () { //describe is a testing convention from ch
       "FlashLoanSwapTest"
     );
 
+    console.log("debug")
+
     // Deploy our FlashLoanExample smart contract
     const flashLoanExample = await FlashLoanExample.deploy(
       // Address of the PoolAddressProvider: you can find it here: https://docs.aave.com/developers/deployed-contracts/v3-mainnet/polygon
@@ -25,6 +27,10 @@ describe("Flash Loans", function () { //describe is a testing convention from ch
     );
     //the constructor is not the issue.
     await flashLoanExample.waitForDeployment();
+
+    
+
+  // print the address of the deployed contract
     //flashLoanExample.target address after deployment
 
     const tokenContract0 = await hre.ethers.getContractAt("IERC20", token0)
@@ -60,13 +66,13 @@ describe("Flash Loans", function () { //describe is a testing convention from ch
         [params]
       )*/
 
-    let abiCoder = hre.ethers.utils.defaultAbiCoder
+      let abiCoder = ethers.AbiCoder.defaultAbiCoder()
 
-    const params = abiCoder.encode([address,address,address,address],[token0,token1,router0,router1])
+      const params = abiCoder.encode(["address","address","address","address"],[token0,token1,router0,router1])
 
 
     try{
-      const txn = await flashLoanExample.createFlashLoan(token0, 10000,params); 
+      const txn = await flashLoanExample.createFlashLoan(token0, 1000,params); 
       console.log(txn)
       await txn.wait();
       

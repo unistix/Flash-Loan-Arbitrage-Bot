@@ -27,6 +27,9 @@ describe("Flash Loans", function () { //describe is a testing convention from ch
     // Move 2000 DAI from DAI_WHALE to our contract by impersonating them
     //this is unrelated to the flash loan itself but helps us pay back the premium
     //irl this would just come from the arbitrage itself
+
+    //TODO: this is the error, you are moving the dai to the contract when you should just deposit before using it
+    
     const BALANCE_AMOUNT_DAI = hre.ethers.parseEther("2000");
     const signer = await ethers.getImpersonatedSigner(DAI_WHALE);
     await token

@@ -19,8 +19,8 @@ module.exports = {
 
 
 require("@nomicfoundation/hardhat-toolbox");
-/*
-require("@nomiclabs/hardhat-ethers");
+
+/*require("@nomiclabs/hardhat-ethers");
 require("@nomiclabs/hardhat-waffle");
 require("@nomiclabs/hardhat-etherscan");*/
 require("dotenv").config()
@@ -33,9 +33,9 @@ module.exports = {
   solidity: "0.8.10",
   networks: {
     hardhat: {
-      forking: {
+      /*forking: {
         url: process.env.MAINNET_URL,
-      },
+      }*/
     },
 
     mainnet: {

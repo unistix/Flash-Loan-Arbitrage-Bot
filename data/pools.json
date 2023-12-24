@@ -1,0 +1,2210 @@
+[
+  {
+    "pool": {
+      "id": "0x0668e13dc61991ac8abe1880e0acf5f58eac7141",
+      "name": "SushiSwap Wrapped Matic/WolfSafePoorPeople",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0x46d502fac9aea7c5bc7b13c8ec9d02378c33d36f",
+          "decimals": 18,
+          "symbol": "WSPP"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0xf0b65db5a285ebf4fead4db6b284ba20ed415dee",
+        "name": "ApeSwap Wrapped Matic/WolfSafePoorPeople",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x46d502fac9aea7c5bc7b13c8ec9d02378c33d36f",
+            "decimals": 18,
+            "symbol": "WSPP"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0x140ea3fae80a2732ebc4de0511ff84ef1a575217",
+      "name": "SushiSwap Wrapped Matic/CRV (PoS)",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0x172370d5cd63279efa6d502dab29171933a610af",
+          "decimals": 18,
+          "symbol": "CRV"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0x7433afe84df37d0954ff87d7f5788f124f8597f8",
+        "name": "ApeSwap Wrapped Matic/CRV (PoS)",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x172370d5cd63279efa6d502dab29171933a610af",
+            "decimals": 18,
+            "symbol": "CRV"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0x32a768e3f7dc13d4e8975c37183fef6289a8f090",
+      "name": "SushiSwap Wrapped Matic/PolyYield Token",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0xce4e6da9c509cb33c23d748713c681c959f68658",
+          "decimals": 18,
+          "symbol": "YIELD"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0xef4150a29e6a3255755f697a298c26f7f0e85f42",
+        "name": "ApeSwap Wrapped Matic/PolyYield Token",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0xce4e6da9c509cb33c23d748713c681c959f68658",
+            "decimals": 18,
+            "symbol": "YIELD"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0x4026895a93d720083e4469ee675156a8ff8d3853",
+      "name": "SushiSwap Wrapped Matic/Bone Token",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0x80244c2441779361f35803b8c711c6c8fc6054a3",
+          "decimals": 18,
+          "symbol": "BONE"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0xbcd83ab205a14648674fe67c97aad89b261cbac6",
+        "name": "ApeSwap Wrapped Matic/Bone Token",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x80244c2441779361f35803b8c711c6c8fc6054a3",
+            "decimals": 18,
+            "symbol": "BONE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0x47187193994550f53beeaf0538005b38122fb54a",
+      "name": "SushiSwap Wrapped Matic/PolyDoge",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0x8a953cfe442c5e8855cc6c61b1293fa648bae472",
+          "decimals": 18,
+          "symbol": "PolyDoge"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0x5d9d66ac0db91ec463fb3e9e5b1513dbff02fd0f",
+        "name": "ApeSwap Wrapped Matic/PolyDoge",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x8a953cfe442c5e8855cc6c61b1293fa648bae472",
+            "decimals": 18,
+            "symbol": "PolyDoge"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0x55ff76bffc3cdd9d5fdbbc2ece4528ecce45047e",
+      "name": "SushiSwap Wrapped Matic/(PoS) Tether USD",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+          "decimals": 6,
+          "symbol": "USDT"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0x218e468b15469228f35b0e7f88425cd45fb982bd",
+        "name": "Honeyswap Wrapped Matic/(PoS) Tether USD",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+            "decimals": 6,
+            "symbol": "USDT"
+          }
+        ]
+      },
+      {
+        "id": "0x65d43b64e3b31965cd5ea367d4c2b94c03084797",
+        "name": "ApeSwap Wrapped Matic/(PoS) Tether USD",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+            "decimals": 6,
+            "symbol": "USDT"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0x68cce7049013ca8df91cd512cefee8fc0bb8d926",
+      "name": "SushiSwap Wrapped Matic/ChainLink Token",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39",
+          "decimals": 18,
+          "symbol": "LINK"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0xa8eca6cc6fb9f8cfa9d3b17d4997cce79e5110cf",
+        "name": "ApeSwap Wrapped Matic/ChainLink Token",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39",
+            "decimals": 18,
+            "symbol": "LINK"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0x7d88d931504d04bfbee6f9745297a93063cab24c",
+      "name": "SushiSwap Wrapped Matic/Aave (PoS)",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0xd6df932a45c0f255f85145f286ea0b292b21c90b",
+          "decimals": 18,
+          "symbol": "AAVE"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0x42ed6d85ccf43859cbc46f6efa1f21e21cc24030",
+        "name": "ApeSwap Wrapped Matic/Aave (PoS)",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0xd6df932a45c0f255f85145f286ea0b292b21c90b",
+            "decimals": 18,
+            "symbol": "AAVE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0x8531c4e29491fe6e5e87af6054fc20fccf0b4290",
+      "name": "SushiSwap Wrapped Matic/(PoS) Wrapped BTC",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6",
+          "decimals": 8,
+          "symbol": "WBTC"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0xe82635a105c520fd58e597181cbf754961d51e3e",
+        "name": "ApeSwap Wrapped Matic/(PoS) Wrapped BTC",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6",
+            "decimals": 8,
+            "symbol": "WBTC"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0x8929d3fea77398f64448c85015633c2d6472fb29",
+      "name": "SushiSwap Wrapped Matic/(PoS) Dai Stablecoin",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
+          "decimals": 18,
+          "symbol": "DAI"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0xcba9d57e29ab4eeb9aa69cd82f93b64505055a3b",
+        "name": "Honeyswap Wrapped Matic/(PoS) Dai Stablecoin",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
+            "decimals": 18,
+            "symbol": "DAI"
+          }
+        ]
+      },
+      {
+        "id": "0xd32f3139a214034a0f9777c87ee0a064c1ff6ae2",
+        "name": "ApeSwap Wrapped Matic/(PoS) Dai Stablecoin",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
+            "decimals": 18,
+            "symbol": "DAI"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0x904aacef570454244110839cc2c8efe0d1c75565",
+      "name": "SushiSwap Wrapped Matic/Instadapp (PoS)",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0xf50d05a1402d0adafa880d36050736f9f6ee7dee",
+          "decimals": 18,
+          "symbol": "INST"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0x2244f119837be9ad8c4ab8a20c286e1db5a2e80d",
+        "name": "Honeyswap Wrapped Matic/Instadapp (PoS)",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0xf50d05a1402d0adafa880d36050736f9f6ee7dee",
+            "decimals": 18,
+            "symbol": "INST"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0x905dcc700fcce9a49b7d907e371230995a45ebce",
+      "name": "SushiSwap Wrapped Matic/Polyroll Token",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0xc68e83a305b0fad69e264a1769a0a070f190d2d6",
+          "decimals": 18,
+          "symbol": "ROLL"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0x65c37f48781a555e2ad5542e4306ebab1ae93cd7",
+        "name": "ApeSwap Wrapped Matic/Polyroll Token",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0xc68e83a305b0fad69e264a1769a0a070f190d2d6",
+            "decimals": 18,
+            "symbol": "ROLL"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0x993e0342a307d0ac7e16d8b0ae0262f237ec1b4b",
+      "name": "SushiSwap Wrapped Matic/polyGAS",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0x840b5fc8c6dee2b1140174a3abdc215190426ccf",
+          "decimals": 18,
+          "symbol": "polyGAS"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0x2637ce16e98fcc66f2ccdd36087defdcf955b68a",
+        "name": "ApeSwap Wrapped Matic/polyGAS",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x840b5fc8c6dee2b1140174a3abdc215190426ccf",
+            "decimals": 18,
+            "symbol": "polyGAS"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0xa93e3e80544fea28abbd828644f65209ec381bd5",
+      "name": "SushiSwap Wrapped Matic/PolyYeld V2",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0x1fd6cf265fd3428f655378a803658942095b4c4e",
+          "decimals": 18,
+          "symbol": "YELD V2"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0x6fb2d3539828b77ad037ae4f45f27ff24ad9d9a0",
+        "name": "ApeSwap Wrapped Matic/PolyYeld V2",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x1fd6cf265fd3428f655378a803658942095b4c4e",
+            "decimals": 18,
+            "symbol": "YELD V2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0xab37e709caa261166771776f6b5b54cb8f23a1a4",
+      "name": "SushiSwap Wrapped Matic/MegaDoge.Org",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0xcbf4ab00b6aa19b4d5d29c7c3508b393a1c01fe3",
+          "decimals": 18,
+          "symbol": "MegaDoge"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0xbd773a2dead04ffd9dc75493f83d59c29d8a097d",
+        "name": "ApeSwap Wrapped Matic/MegaDoge.Org",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0xcbf4ab00b6aa19b4d5d29c7c3508b393a1c01fe3",
+            "decimals": 18,
+            "symbol": "MegaDoge"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0xbb86ee2285abe310178ae5c511547e7e75c784e6",
+      "name": "SushiSwap Wrapped Matic/CrystalToken",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0x76bf0c28e604cc3fe9967c83b3c3f31c213cfe64",
+          "decimals": 18,
+          "symbol": "CRYSTL"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0xb8e54c9ea1616beebe11505a419dd8df1000e02a",
+        "name": "ApeSwap Wrapped Matic/CrystalToken",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x76bf0c28e604cc3fe9967c83b3c3f31c213cfe64",
+            "decimals": 18,
+            "symbol": "CRYSTL"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0xbbe5f4998cc537a91e7b90c7925d1c7c5bab7ee0",
+      "name": "SushiSwap Wrapped Matic/PolyPup Collar Token",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0x8df26a1bd9bd98e2ec506fc9d8009954716a05dc",
+          "decimals": 18,
+          "symbol": "COLLAR"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0x45ce6bd7a2ef64bf980559c64e602b79f2a0d8f0",
+        "name": "ApeSwap Wrapped Matic/PolyPup Collar Token",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x8df26a1bd9bd98e2ec506fc9d8009954716a05dc",
+            "decimals": 18,
+            "symbol": "COLLAR"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0xc4e595acdd7d12fec385e5da5d43160e8a0bac0e",
+      "name": "SushiSwap Wrapped Matic/Wrapped Ether",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+          "decimals": 18,
+          "symbol": "WETH"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0xeae495187472b8db83cf9dc738ba3869fde5b1d3",
+        "name": "Honeyswap Wrapped Matic/Wrapped Ether",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+            "decimals": 18,
+            "symbol": "WETH"
+          }
+        ]
+      },
+      {
+        "id": "0x6cf8654e85ab489ca7e70189046d507eba233613",
+        "name": "ApeSwap Wrapped Matic/Wrapped Ether",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+            "decimals": 18,
+            "symbol": "WETH"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0xcbf6f78981e63ef813cb71852d72a060b583eecf",
+      "name": "SushiSwap Wrapped Matic/Fish",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0x3a3df212b7aa91aa0402b9035b098891d276572b",
+          "decimals": 18,
+          "symbol": "FISH"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0x64d1393b53e3c4a8b04fb1dde2c7b40bc0897222",
+        "name": "ApeSwap Wrapped Matic/Fish",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x3a3df212b7aa91aa0402b9035b098891d276572b",
+            "decimals": 18,
+            "symbol": "FISH"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0xcd353f79d9fade311fc3119b841e1f456b54e858",
+      "name": "SushiSwap Wrapped Matic/USD Coin (PoS)",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+          "decimals": 6,
+          "symbol": "USDC"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0x86b7249272fabb82ef36550ef898ea539225e7f0",
+        "name": "Honeyswap Wrapped Matic/USD Coin (PoS)",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+            "decimals": 6,
+            "symbol": "USDC"
+          }
+        ]
+      },
+      {
+        "id": "0x019011032a7ac3a87ee885b6c08467ac46ad11cd",
+        "name": "ApeSwap Wrapped Matic/USD Coin (PoS)",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+            "decimals": 6,
+            "symbol": "USDC"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0xce955d4e7aa7228a12dff628ad620820f3b405c8",
+      "name": "SushiSwap Wrapped Matic/Kommunitas",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0xc004e2318722ea2b15499d6375905d75ee5390b8",
+          "decimals": 8,
+          "symbol": "KOM"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0x0806a407d6eea72788d91c36829a19d424446040",
+        "name": "ApeSwap Wrapped Matic/Kommunitas",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0xc004e2318722ea2b15499d6375905d75ee5390b8",
+            "decimals": 8,
+            "symbol": "KOM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0xd6887723e1e113ef1b43dbba2112e355c3cbda73",
+      "name": "SushiSwap Wrapped Matic/Dogira",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0xdda40cdfe4a0090f42ff49f264a831402adb801a",
+          "decimals": 9,
+          "symbol": "DOGIRA"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0x103062f71b7106a8df6fd2a4dd9368358c44a9d0",
+        "name": "ApeSwap Wrapped Matic/Dogira",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0xdda40cdfe4a0090f42ff49f264a831402adb801a",
+            "decimals": 9,
+            "symbol": "DOGIRA"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0xdd650c8d274474ff1af1152b3b27f2702aca8a98",
+      "name": "SushiSwap Wrapped Matic/PolyYeld Token",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0xd0f3121a190d85de0ab6131f2bcecdbfcfb38891",
+          "decimals": 18,
+          "symbol": "YELD"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0xc1dd63ca154837ac4356d888f7c10fbbe442407e",
+        "name": "ApeSwap Wrapped Matic/PolyYeld Token",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0xd0f3121a190d85de0ab6131f2bcecdbfcfb38891",
+            "decimals": 18,
+            "symbol": "YELD"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0xe9bb87c33d1607b06fb3988b31e9601bd21ff3bd",
+      "name": "SushiSwap Wrapped Matic/Augury Finance",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0x76e63a3e7ba1e2e61d3da86a87479f983de89a7e",
+          "decimals": 18,
+          "symbol": "OMEN"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0x6d579ffafbd4a0b23a68730adcd8ef62dca4c015",
+        "name": "ApeSwap Wrapped Matic/Augury Finance",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x76e63a3e7ba1e2e61d3da86a87479f983de89a7e",
+            "decimals": 18,
+            "symbol": "OMEN"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0xf09739307a5e49b1ef73f4a9efdd1795e876acb9",
+      "name": "SushiSwap Wrapped Matic/SportX (PoS)",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0x840195888db4d6a99ed9f73fcd3b225bb3cb1a79",
+          "decimals": 18,
+          "symbol": "SX"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0xf90331cb67f9ae85739f5aedfa93dec68b7ce32e",
+        "name": "ApeSwap Wrapped Matic/SportX (PoS)",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x840195888db4d6a99ed9f73fcd3b225bb3cb1a79",
+            "decimals": 18,
+            "symbol": "SX"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0xfd94fb1d8dd96a3d57801f328d3819ace59d7276",
+      "name": "SushiSwap Cougar Token/Wrapped Matic",
+      "inputTokens": [
+        {
+          "id": "0x047fd3b3d2366f9babe105ade4598e263d6c699c",
+          "decimals": 18,
+          "symbol": "COUGAR"
+        },
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0x18a73e9a5072d350296ebc4cfccfaa5d41fff5f6",
+        "name": "ApeSwap Cougar Token/Wrapped Matic",
+        "inputTokens": [
+          {
+            "id": "0x047fd3b3d2366f9babe105ade4598e263d6c699c",
+            "decimals": 18,
+            "symbol": "COUGAR"
+          },
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0x218e468b15469228f35b0e7f88425cd45fb982bd",
+      "name": "Honeyswap Wrapped Matic/(PoS) Tether USD",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+          "decimals": 6,
+          "symbol": "USDT"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0x55ff76bffc3cdd9d5fdbbc2ece4528ecce45047e",
+        "name": "SushiSwap Wrapped Matic/(PoS) Tether USD",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+            "decimals": 6,
+            "symbol": "USDT"
+          }
+        ]
+      },
+      {
+        "id": "0x65d43b64e3b31965cd5ea367d4c2b94c03084797",
+        "name": "ApeSwap Wrapped Matic/(PoS) Tether USD",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+            "decimals": 6,
+            "symbol": "USDT"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0x2244f119837be9ad8c4ab8a20c286e1db5a2e80d",
+      "name": "Honeyswap Wrapped Matic/Instadapp (PoS)",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0xf50d05a1402d0adafa880d36050736f9f6ee7dee",
+          "decimals": 18,
+          "symbol": "INST"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0x904aacef570454244110839cc2c8efe0d1c75565",
+        "name": "SushiSwap Wrapped Matic/Instadapp (PoS)",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0xf50d05a1402d0adafa880d36050736f9f6ee7dee",
+            "decimals": 18,
+            "symbol": "INST"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0x86b7249272fabb82ef36550ef898ea539225e7f0",
+      "name": "Honeyswap Wrapped Matic/USD Coin (PoS)",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+          "decimals": 6,
+          "symbol": "USDC"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0xcd353f79d9fade311fc3119b841e1f456b54e858",
+        "name": "SushiSwap Wrapped Matic/USD Coin (PoS)",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+            "decimals": 6,
+            "symbol": "USDC"
+          }
+        ]
+      },
+      {
+        "id": "0x019011032a7ac3a87ee885b6c08467ac46ad11cd",
+        "name": "ApeSwap Wrapped Matic/USD Coin (PoS)",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+            "decimals": 6,
+            "symbol": "USDC"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0xcba9d57e29ab4eeb9aa69cd82f93b64505055a3b",
+      "name": "Honeyswap Wrapped Matic/(PoS) Dai Stablecoin",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
+          "decimals": 18,
+          "symbol": "DAI"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0x8929d3fea77398f64448c85015633c2d6472fb29",
+        "name": "SushiSwap Wrapped Matic/(PoS) Dai Stablecoin",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
+            "decimals": 18,
+            "symbol": "DAI"
+          }
+        ]
+      },
+      {
+        "id": "0xd32f3139a214034a0f9777c87ee0a064c1ff6ae2",
+        "name": "ApeSwap Wrapped Matic/(PoS) Dai Stablecoin",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
+            "decimals": 18,
+            "symbol": "DAI"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0xeae495187472b8db83cf9dc738ba3869fde5b1d3",
+      "name": "Honeyswap Wrapped Matic/Wrapped Ether",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+          "decimals": 18,
+          "symbol": "WETH"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0xc4e595acdd7d12fec385e5da5d43160e8a0bac0e",
+        "name": "SushiSwap Wrapped Matic/Wrapped Ether",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+            "decimals": 18,
+            "symbol": "WETH"
+          }
+        ]
+      },
+      {
+        "id": "0x6cf8654e85ab489ca7e70189046d507eba233613",
+        "name": "ApeSwap Wrapped Matic/Wrapped Ether",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+            "decimals": 18,
+            "symbol": "WETH"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0x019011032a7ac3a87ee885b6c08467ac46ad11cd",
+      "name": "ApeSwap Wrapped Matic/USD Coin (PoS)",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+          "decimals": 6,
+          "symbol": "USDC"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0xcd353f79d9fade311fc3119b841e1f456b54e858",
+        "name": "SushiSwap Wrapped Matic/USD Coin (PoS)",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+            "decimals": 6,
+            "symbol": "USDC"
+          }
+        ]
+      },
+      {
+        "id": "0x86b7249272fabb82ef36550ef898ea539225e7f0",
+        "name": "Honeyswap Wrapped Matic/USD Coin (PoS)",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+            "decimals": 6,
+            "symbol": "USDC"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0x0806a407d6eea72788d91c36829a19d424446040",
+      "name": "ApeSwap Wrapped Matic/Kommunitas",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0xc004e2318722ea2b15499d6375905d75ee5390b8",
+          "decimals": 8,
+          "symbol": "KOM"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0xce955d4e7aa7228a12dff628ad620820f3b405c8",
+        "name": "SushiSwap Wrapped Matic/Kommunitas",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0xc004e2318722ea2b15499d6375905d75ee5390b8",
+            "decimals": 8,
+            "symbol": "KOM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0x103062f71b7106a8df6fd2a4dd9368358c44a9d0",
+      "name": "ApeSwap Wrapped Matic/Dogira",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0xdda40cdfe4a0090f42ff49f264a831402adb801a",
+          "decimals": 9,
+          "symbol": "DOGIRA"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0xd6887723e1e113ef1b43dbba2112e355c3cbda73",
+        "name": "SushiSwap Wrapped Matic/Dogira",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0xdda40cdfe4a0090f42ff49f264a831402adb801a",
+            "decimals": 9,
+            "symbol": "DOGIRA"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0x18a73e9a5072d350296ebc4cfccfaa5d41fff5f6",
+      "name": "ApeSwap Cougar Token/Wrapped Matic",
+      "inputTokens": [
+        {
+          "id": "0x047fd3b3d2366f9babe105ade4598e263d6c699c",
+          "decimals": 18,
+          "symbol": "COUGAR"
+        },
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0xfd94fb1d8dd96a3d57801f328d3819ace59d7276",
+        "name": "SushiSwap Cougar Token/Wrapped Matic",
+        "inputTokens": [
+          {
+            "id": "0x047fd3b3d2366f9babe105ade4598e263d6c699c",
+            "decimals": 18,
+            "symbol": "COUGAR"
+          },
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0x2637ce16e98fcc66f2ccdd36087defdcf955b68a",
+      "name": "ApeSwap Wrapped Matic/polyGAS",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0x840b5fc8c6dee2b1140174a3abdc215190426ccf",
+          "decimals": 18,
+          "symbol": "polyGAS"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0x993e0342a307d0ac7e16d8b0ae0262f237ec1b4b",
+        "name": "SushiSwap Wrapped Matic/polyGAS",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x840b5fc8c6dee2b1140174a3abdc215190426ccf",
+            "decimals": 18,
+            "symbol": "polyGAS"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0x42ed6d85ccf43859cbc46f6efa1f21e21cc24030",
+      "name": "ApeSwap Wrapped Matic/Aave (PoS)",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0xd6df932a45c0f255f85145f286ea0b292b21c90b",
+          "decimals": 18,
+          "symbol": "AAVE"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0x7d88d931504d04bfbee6f9745297a93063cab24c",
+        "name": "SushiSwap Wrapped Matic/Aave (PoS)",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0xd6df932a45c0f255f85145f286ea0b292b21c90b",
+            "decimals": 18,
+            "symbol": "AAVE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0x45ce6bd7a2ef64bf980559c64e602b79f2a0d8f0",
+      "name": "ApeSwap Wrapped Matic/PolyPup Collar Token",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0x8df26a1bd9bd98e2ec506fc9d8009954716a05dc",
+          "decimals": 18,
+          "symbol": "COLLAR"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0xbbe5f4998cc537a91e7b90c7925d1c7c5bab7ee0",
+        "name": "SushiSwap Wrapped Matic/PolyPup Collar Token",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x8df26a1bd9bd98e2ec506fc9d8009954716a05dc",
+            "decimals": 18,
+            "symbol": "COLLAR"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0x5d9d66ac0db91ec463fb3e9e5b1513dbff02fd0f",
+      "name": "ApeSwap Wrapped Matic/PolyDoge",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0x8a953cfe442c5e8855cc6c61b1293fa648bae472",
+          "decimals": 18,
+          "symbol": "PolyDoge"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0x47187193994550f53beeaf0538005b38122fb54a",
+        "name": "SushiSwap Wrapped Matic/PolyDoge",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x8a953cfe442c5e8855cc6c61b1293fa648bae472",
+            "decimals": 18,
+            "symbol": "PolyDoge"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0x64d1393b53e3c4a8b04fb1dde2c7b40bc0897222",
+      "name": "ApeSwap Wrapped Matic/Fish",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0x3a3df212b7aa91aa0402b9035b098891d276572b",
+          "decimals": 18,
+          "symbol": "FISH"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0xcbf6f78981e63ef813cb71852d72a060b583eecf",
+        "name": "SushiSwap Wrapped Matic/Fish",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x3a3df212b7aa91aa0402b9035b098891d276572b",
+            "decimals": 18,
+            "symbol": "FISH"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0x65c37f48781a555e2ad5542e4306ebab1ae93cd7",
+      "name": "ApeSwap Wrapped Matic/Polyroll Token",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0xc68e83a305b0fad69e264a1769a0a070f190d2d6",
+          "decimals": 18,
+          "symbol": "ROLL"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0x905dcc700fcce9a49b7d907e371230995a45ebce",
+        "name": "SushiSwap Wrapped Matic/Polyroll Token",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0xc68e83a305b0fad69e264a1769a0a070f190d2d6",
+            "decimals": 18,
+            "symbol": "ROLL"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0x65d43b64e3b31965cd5ea367d4c2b94c03084797",
+      "name": "ApeSwap Wrapped Matic/(PoS) Tether USD",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+          "decimals": 6,
+          "symbol": "USDT"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0x55ff76bffc3cdd9d5fdbbc2ece4528ecce45047e",
+        "name": "SushiSwap Wrapped Matic/(PoS) Tether USD",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+            "decimals": 6,
+            "symbol": "USDT"
+          }
+        ]
+      },
+      {
+        "id": "0x218e468b15469228f35b0e7f88425cd45fb982bd",
+        "name": "Honeyswap Wrapped Matic/(PoS) Tether USD",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+            "decimals": 6,
+            "symbol": "USDT"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0x6cf8654e85ab489ca7e70189046d507eba233613",
+      "name": "ApeSwap Wrapped Matic/Wrapped Ether",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+          "decimals": 18,
+          "symbol": "WETH"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0xc4e595acdd7d12fec385e5da5d43160e8a0bac0e",
+        "name": "SushiSwap Wrapped Matic/Wrapped Ether",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+            "decimals": 18,
+            "symbol": "WETH"
+          }
+        ]
+      },
+      {
+        "id": "0xeae495187472b8db83cf9dc738ba3869fde5b1d3",
+        "name": "Honeyswap Wrapped Matic/Wrapped Ether",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+            "decimals": 18,
+            "symbol": "WETH"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0x6d579ffafbd4a0b23a68730adcd8ef62dca4c015",
+      "name": "ApeSwap Wrapped Matic/Augury Finance",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0x76e63a3e7ba1e2e61d3da86a87479f983de89a7e",
+          "decimals": 18,
+          "symbol": "OMEN"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0xe9bb87c33d1607b06fb3988b31e9601bd21ff3bd",
+        "name": "SushiSwap Wrapped Matic/Augury Finance",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x76e63a3e7ba1e2e61d3da86a87479f983de89a7e",
+            "decimals": 18,
+            "symbol": "OMEN"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0x6fb2d3539828b77ad037ae4f45f27ff24ad9d9a0",
+      "name": "ApeSwap Wrapped Matic/PolyYeld V2",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0x1fd6cf265fd3428f655378a803658942095b4c4e",
+          "decimals": 18,
+          "symbol": "YELD V2"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0xa93e3e80544fea28abbd828644f65209ec381bd5",
+        "name": "SushiSwap Wrapped Matic/PolyYeld V2",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x1fd6cf265fd3428f655378a803658942095b4c4e",
+            "decimals": 18,
+            "symbol": "YELD V2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0x7433afe84df37d0954ff87d7f5788f124f8597f8",
+      "name": "ApeSwap Wrapped Matic/CRV (PoS)",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0x172370d5cd63279efa6d502dab29171933a610af",
+          "decimals": 18,
+          "symbol": "CRV"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0x140ea3fae80a2732ebc4de0511ff84ef1a575217",
+        "name": "SushiSwap Wrapped Matic/CRV (PoS)",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x172370d5cd63279efa6d502dab29171933a610af",
+            "decimals": 18,
+            "symbol": "CRV"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0xa8eca6cc6fb9f8cfa9d3b17d4997cce79e5110cf",
+      "name": "ApeSwap Wrapped Matic/ChainLink Token",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39",
+          "decimals": 18,
+          "symbol": "LINK"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0x68cce7049013ca8df91cd512cefee8fc0bb8d926",
+        "name": "SushiSwap Wrapped Matic/ChainLink Token",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39",
+            "decimals": 18,
+            "symbol": "LINK"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0xb8e54c9ea1616beebe11505a419dd8df1000e02a",
+      "name": "ApeSwap Wrapped Matic/CrystalToken",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0x76bf0c28e604cc3fe9967c83b3c3f31c213cfe64",
+          "decimals": 18,
+          "symbol": "CRYSTL"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0xbb86ee2285abe310178ae5c511547e7e75c784e6",
+        "name": "SushiSwap Wrapped Matic/CrystalToken",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x76bf0c28e604cc3fe9967c83b3c3f31c213cfe64",
+            "decimals": 18,
+            "symbol": "CRYSTL"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0xbcd83ab205a14648674fe67c97aad89b261cbac6",
+      "name": "ApeSwap Wrapped Matic/Bone Token",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0x80244c2441779361f35803b8c711c6c8fc6054a3",
+          "decimals": 18,
+          "symbol": "BONE"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0x4026895a93d720083e4469ee675156a8ff8d3853",
+        "name": "SushiSwap Wrapped Matic/Bone Token",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x80244c2441779361f35803b8c711c6c8fc6054a3",
+            "decimals": 18,
+            "symbol": "BONE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0xbd773a2dead04ffd9dc75493f83d59c29d8a097d",
+      "name": "ApeSwap Wrapped Matic/MegaDoge.Org",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0xcbf4ab00b6aa19b4d5d29c7c3508b393a1c01fe3",
+          "decimals": 18,
+          "symbol": "MegaDoge"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0xab37e709caa261166771776f6b5b54cb8f23a1a4",
+        "name": "SushiSwap Wrapped Matic/MegaDoge.Org",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0xcbf4ab00b6aa19b4d5d29c7c3508b393a1c01fe3",
+            "decimals": 18,
+            "symbol": "MegaDoge"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0xc1dd63ca154837ac4356d888f7c10fbbe442407e",
+      "name": "ApeSwap Wrapped Matic/PolyYeld Token",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0xd0f3121a190d85de0ab6131f2bcecdbfcfb38891",
+          "decimals": 18,
+          "symbol": "YELD"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0xdd650c8d274474ff1af1152b3b27f2702aca8a98",
+        "name": "SushiSwap Wrapped Matic/PolyYeld Token",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0xd0f3121a190d85de0ab6131f2bcecdbfcfb38891",
+            "decimals": 18,
+            "symbol": "YELD"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0xd32f3139a214034a0f9777c87ee0a064c1ff6ae2",
+      "name": "ApeSwap Wrapped Matic/(PoS) Dai Stablecoin",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
+          "decimals": 18,
+          "symbol": "DAI"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0x8929d3fea77398f64448c85015633c2d6472fb29",
+        "name": "SushiSwap Wrapped Matic/(PoS) Dai Stablecoin",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
+            "decimals": 18,
+            "symbol": "DAI"
+          }
+        ]
+      },
+      {
+        "id": "0xcba9d57e29ab4eeb9aa69cd82f93b64505055a3b",
+        "name": "Honeyswap Wrapped Matic/(PoS) Dai Stablecoin",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
+            "decimals": 18,
+            "symbol": "DAI"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0xe82635a105c520fd58e597181cbf754961d51e3e",
+      "name": "ApeSwap Wrapped Matic/(PoS) Wrapped BTC",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6",
+          "decimals": 8,
+          "symbol": "WBTC"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0x8531c4e29491fe6e5e87af6054fc20fccf0b4290",
+        "name": "SushiSwap Wrapped Matic/(PoS) Wrapped BTC",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6",
+            "decimals": 8,
+            "symbol": "WBTC"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0xef4150a29e6a3255755f697a298c26f7f0e85f42",
+      "name": "ApeSwap Wrapped Matic/PolyYield Token",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0xce4e6da9c509cb33c23d748713c681c959f68658",
+          "decimals": 18,
+          "symbol": "YIELD"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0x32a768e3f7dc13d4e8975c37183fef6289a8f090",
+        "name": "SushiSwap Wrapped Matic/PolyYield Token",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0xce4e6da9c509cb33c23d748713c681c959f68658",
+            "decimals": 18,
+            "symbol": "YIELD"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0xf0b65db5a285ebf4fead4db6b284ba20ed415dee",
+      "name": "ApeSwap Wrapped Matic/WolfSafePoorPeople",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0x46d502fac9aea7c5bc7b13c8ec9d02378c33d36f",
+          "decimals": 18,
+          "symbol": "WSPP"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0x0668e13dc61991ac8abe1880e0acf5f58eac7141",
+        "name": "SushiSwap Wrapped Matic/WolfSafePoorPeople",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x46d502fac9aea7c5bc7b13c8ec9d02378c33d36f",
+            "decimals": 18,
+            "symbol": "WSPP"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "pool": {
+      "id": "0xf90331cb67f9ae85739f5aedfa93dec68b7ce32e",
+      "name": "ApeSwap Wrapped Matic/SportX (PoS)",
+      "inputTokens": [
+        {
+          "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+          "decimals": 18,
+          "symbol": "WMATIC"
+        },
+        {
+          "id": "0x840195888db4d6a99ed9f73fcd3b225bb3cb1a79",
+          "decimals": 18,
+          "symbol": "SX"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "id": "0xf09739307a5e49b1ef73f4a9efdd1795e876acb9",
+        "name": "SushiSwap Wrapped Matic/SportX (PoS)",
+        "inputTokens": [
+          {
+            "id": "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+            "decimals": 18,
+            "symbol": "WMATIC"
+          },
+          {
+            "id": "0x840195888db4d6a99ed9f73fcd3b225bb3cb1a79",
+            "decimals": 18,
+            "symbol": "SX"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -23,12 +23,6 @@ contract FlashLoanSwapTest is FlashLoanSimpleReceiverBase { //base contract whic
     address public owner;
    
 
-    enum Exchange {
-        UNI,
-        SUSHI,
-        NONE
-    }
-
     //--------------------------------------------------------------------
     // MODIFIERS
 
@@ -44,11 +38,11 @@ contract FlashLoanSwapTest is FlashLoanSimpleReceiverBase { //base contract whic
     
 
     constructor(
-        IPoolAddressesProvider provider
+        address provider
     
     
     )
-        FlashLoanSimpleReceiverBase(provider)
+        FlashLoanSimpleReceiverBase(IPoolAddressesProvider(provider))
     {
       
         owner = msg.sender;
