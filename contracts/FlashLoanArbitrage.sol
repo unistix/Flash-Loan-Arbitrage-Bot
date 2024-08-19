@@ -8,7 +8,7 @@ import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 //Since we are not actually executing any arbitrage, and therefore will not be able to pay the premium if we run the contract as-is
 //https://github.com/kaymen99/aave-flashloan-arbitrage/blob/main/contracts/FlashLoanArbitrage.sol
 
-contract FlashLoanSwapTest is FlashLoanSimpleReceiverBase { //base contract which we will inherit from 
+contract FlashLoanArbitrage is FlashLoanSimpleReceiverBase { //base contract which we will inherit from 
    
    
    
@@ -108,20 +108,17 @@ contract FlashLoanSwapTest is FlashLoanSimpleReceiverBase { //base contract whic
         return amountOut;
     }
 
-    function makeArbitrage(uint256 amount, address token0, address token1, address router0, address router1) public { //could be worth passing in variables here
+    function makeArbitrage(uint256 amount, address token0, address token1, address token2, address router0, address router1, address router2) public { //could be worth passing in variables here
        
 
         
             //pass in flashparams list values and amount to get amount out 
-            uint256 amountOut = _swap( 
-                amount,
-                router0,
-                token0,
-                token1
-            );
+            uint256 amountOut1 = _swap( amount,router0,token0,token1);
+            uint256 amountOut2 = _swap( amountOut1,router1,token1,token2);
+            uint256 amountOut3 = _swap( amountOut2,router2,token2,token0);
+            require(amountOut3 > amount, "Arbitrage not profitable");
 
-            _swap(amountOut, router1, token1,token0);
-        
+           
     }
     
 
@@ -174,11 +171,11 @@ contract FlashLoanSwapTest is FlashLoanSimpleReceiverBase { //base contract whic
        
         
         
-        (address token0, address token1, address router0, address router1) = abi.decode(params, (address, address, address, address));  //params = [token0,token1,router0,router1]
+         (address token0, address token1, address token2, address router0, address router1,address router2) = abi.decode(params, (address, address, address, address,address,address));   //params = [token0,token1,router0,router1]
 
 
         //SWAP
-        makeArbitrage(amount,token0,token1,router0,router1);//you haven't actuall pass anything from params into here
+        makeArbitrage(amount,token0,token1,token2,router0,router1,router2);//you haven't actuall pass anything from params into here
 
         //RETURN MONEY
         uint256 amountOwing = amount + premium;

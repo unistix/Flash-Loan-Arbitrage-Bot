@@ -15,7 +15,7 @@ async function main() {
   console.log("Starting flash loan deploy")
 
   const FlashLoanExample = await hre.ethers.getContractFactory(
-    "FlashLoanSwapTest"
+    "FlashLoanSlip"
   );
 
   console.log("debug")
@@ -53,4 +53,5 @@ async function main() {
 }
 
 main()
-//0xb873d1C35CF639552c36670c277389d665944867
+
+//0xEC9f0393d6bd0621De4dFC9DcAde437d6446a06A

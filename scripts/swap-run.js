@@ -20,7 +20,7 @@ const token0 = "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270" //MATIC
 const token1 ="0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39" //LINK
 
 const flashLoanContractAdress = "0xb873d1C35CF639552c36670c277389d665944867"
-const poolNumber = 41
+const poolNumber = 51 //DAI //51  USDT 41
 const BORROW = 1
 
 sqrtToPrice = (sqrt) => {
@@ -63,10 +63,13 @@ function convertToContractValue(value, decimals) {
 
 async function runFlash(_params) {
   console.log("Starting running flash loan contract ")
+  console.log("Debug 1")
+  console.log(_params.token0)
 
 
 
   const tokenContract0 = await hre.ethers.getContractAt("IERC20", _params.token0)
+  console.log("Debug 2")
   const tokenContract1 = await hre.ethers.getContractAt("IERC20", _params.token1)
   const flashLoanContract = await hre.ethers.getContractAt("FlashLoanSwapTest", flashLoanContractAdress)
 
@@ -89,9 +92,12 @@ async function runFlash(_params) {
   console.log("owner wallet contract balance token1:", hre.ethers.formatUnits(String(ownerContractBalance1),tokenDecimals1))
 
   console.log(convertToContractValue(1, 18))
+  console.log("Debug Running?")
 
 
   try{
+    
+  
     const txn = await flashLoanContract.getERC20Balance(_params.token0); 
     console.log(txn)
    
@@ -234,7 +240,7 @@ const swapEventHandlerA = (sender, amount0In, amount1In, amount0Out, amount1Out,
 
       if(spreadWFee>0){
         console.log("\n!!FLASHSWAP A -> B!!");
-        params = {token0:pools[poolNumber].pool.inputTokens[0].id,token1:pools[poolNumber].pool.inputTokens[1].id,router0:router0,router1:router1}
+        _params = {token0:pools[poolNumber].pool.inputTokens[0].id,token1:pools[poolNumber].pool.inputTokens[1].id,router0:router0,router1:router1}
        
         pairA.removeListener('Swap', swapEventHandlerA);
         pairB.removeListener('Swap', swapEventHandlerB);
@@ -252,7 +258,7 @@ const swapEventHandlerA = (sender, amount0In, amount1In, amount0Out, amount1Out,
 
       if(spreadWFee>0){
         console.log("\n!!FLASHSWAP B -> A!!");
-        params = {token0:pools[poolNumber].pool.inputTokens[0].id,token1:pools[poolNumber].pool.inputTokens[1].id,router0:router1,router1:router0}
+        _params = {token0:pools[poolNumber].pool.inputTokens[0].id,token1:pools[poolNumber].pool.inputTokens[1].id,router0:router1,router1:router0}
         
         pairA.removeListener('Swap', swapEventHandlerA);
         pairB.removeListener('Swap', swapEventHandlerB);
@@ -336,7 +342,7 @@ const swapEventHandlerB = (sender, amount0In, amount1In, amount0Out, amount1Out,
         console.log("spread with Fee",spreadWFee)
         if(spreadWFee>0){
           console.log("\n!!FLASHSWAP A -> B!!");
-          _params = {token0:pools[poolNumber].pool.inputTokens[0].id,token1:pools[poolNumber].pool.inputTokens[1].id,router0:router1,router1:router0}
+          _params = {token0:pools[poolNumber].pool.inputTokens[0].id,token1:pools[poolNumber].pool.inputTokens[1].id,router0:router0,router1:router1}
           
           pairA.removeListener('Swap', swapEventHandlerA);
           pairB.removeListener('Swap', swapEventHandlerB);
@@ -352,7 +358,7 @@ const swapEventHandlerB = (sender, amount0In, amount1In, amount0Out, amount1Out,
         console.log("spread",spread)
         console.log("spread with Fee",spreadWFee)
         if(spreadWFee>0){
-          console.log("\n!!FLASHSWAP A -> B!!");
+          console.log("\n!!FLASHSWAP B -> A!!");
           _params = {token0:pools[poolNumber].pool.inputTokens[0].id,token1:pools[poolNumber].pool.inputTokens[1].id,router0:router1,router1:router0}
           
           pairA.removeListener('Swap', swapEventHandlerA);

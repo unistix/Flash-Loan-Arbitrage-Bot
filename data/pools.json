@@ -14,7 +14,9 @@
           "decimals": 18,
           "symbol": "WSPP"
         }
-      ]
+      ],
+      "excName": "SushiSwap",
+      "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
     },
     "matches": [
       {
@@ -31,7 +33,9 @@
             "decimals": 18,
             "symbol": "WSPP"
           }
-        ]
+        ],
+        "excName": "ApeSwap",
+        "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
       }
     ]
   },
@@ -50,7 +54,9 @@
           "decimals": 18,
           "symbol": "CRV"
         }
-      ]
+      ],
+      "excName": "SushiSwap",
+      "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
     },
     "matches": [
       {
@@ -67,7 +73,9 @@
             "decimals": 18,
             "symbol": "CRV"
           }
-        ]
+        ],
+        "excName": "ApeSwap",
+        "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
       }
     ]
   },
@@ -86,7 +94,9 @@
           "decimals": 18,
           "symbol": "YIELD"
         }
-      ]
+      ],
+      "excName": "SushiSwap",
+      "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
     },
     "matches": [
       {
@@ -103,7 +113,9 @@
             "decimals": 18,
             "symbol": "YIELD"
           }
-        ]
+        ],
+        "excName": "ApeSwap",
+        "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
       }
     ]
   },
@@ -122,7 +134,9 @@
           "decimals": 18,
           "symbol": "BONE"
         }
-      ]
+      ],
+      "excName": "SushiSwap",
+      "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
     },
     "matches": [
       {
@@ -139,7 +153,9 @@
             "decimals": 18,
             "symbol": "BONE"
           }
-        ]
+        ],
+        "excName": "ApeSwap",
+        "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
       }
     ]
   },
@@ -158,7 +174,9 @@
           "decimals": 18,
           "symbol": "PolyDoge"
         }
-      ]
+      ],
+      "excName": "SushiSwap",
+      "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
     },
     "matches": [
       {
@@ -175,7 +193,9 @@
             "decimals": 18,
             "symbol": "PolyDoge"
           }
-        ]
+        ],
+        "excName": "ApeSwap",
+        "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
       }
     ]
   },
@@ -194,7 +214,9 @@
           "decimals": 6,
           "symbol": "USDT"
         }
-      ]
+      ],
+      "excName": "SushiSwap",
+      "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
     },
     "matches": [
       {
@@ -211,7 +233,9 @@
             "decimals": 6,
             "symbol": "USDT"
           }
-        ]
+        ],
+        "excName": "Honeyswap",
+        "factory": "0xaD340d0CD0B117B0140671E7cB39770e7675C848"
       },
       {
         "id": "0x65d43b64e3b31965cd5ea367d4c2b94c03084797",
@@ -227,7 +251,9 @@
             "decimals": 6,
             "symbol": "USDT"
           }
-        ]
+        ],
+        "excName": "ApeSwap",
+        "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
       }
     ]
   },
@@ -246,7 +272,9 @@
           "decimals": 18,
           "symbol": "LINK"
         }
-      ]
+      ],
+      "excName": "SushiSwap",
+      "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
     },
     "matches": [
       {
@@ -263,7 +291,9 @@
             "decimals": 18,
             "symbol": "LINK"
           }
-        ]
+        ],
+        "excName": "ApeSwap",
+        "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
       }
     ]
   },
@@ -282,7 +312,9 @@
           "decimals": 18,
           "symbol": "AAVE"
         }
-      ]
+      ],
+      "excName": "SushiSwap",
+      "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
     },
     "matches": [
       {
@@ -299,7 +331,9 @@
             "decimals": 18,
             "symbol": "AAVE"
           }
-        ]
+        ],
+        "excName": "ApeSwap",
+        "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
       }
     ]
   },
@@ -318,7 +352,9 @@
           "decimals": 8,
           "symbol": "WBTC"
         }
-      ]
+      ],
+      "excName": "SushiSwap",
+      "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
     },
     "matches": [
       {
@@ -335,7 +371,9 @@
             "decimals": 8,
             "symbol": "WBTC"
           }
-        ]
+        ],
+        "excName": "ApeSwap",
+        "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
       }
     ]
   },
@@ -354,7 +392,9 @@
           "decimals": 18,
           "symbol": "DAI"
         }
-      ]
+      ],
+      "excName": "SushiSwap",
+      "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
     },
     "matches": [
       {
@@ -371,7 +411,9 @@
             "decimals": 18,
             "symbol": "DAI"
           }
-        ]
+        ],
+        "excName": "Honeyswap",
+        "factory": "0xaD340d0CD0B117B0140671E7cB39770e7675C848"
       },
       {
         "id": "0xd32f3139a214034a0f9777c87ee0a064c1ff6ae2",
@@ -387,7 +429,9 @@
             "decimals": 18,
             "symbol": "DAI"
           }
-        ]
+        ],
+        "excName": "ApeSwap",
+        "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
       }
     ]
   },
@@ -406,7 +450,9 @@
           "decimals": 18,
           "symbol": "INST"
         }
-      ]
+      ],
+      "excName": "SushiSwap",
+      "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
     },
     "matches": [
       {
@@ -423,7 +469,9 @@
             "decimals": 18,
             "symbol": "INST"
           }
-        ]
+        ],
+        "excName": "Honeyswap",
+        "factory": "0xaD340d0CD0B117B0140671E7cB39770e7675C848"
       }
     ]
   },
@@ -442,7 +490,9 @@
           "decimals": 18,
           "symbol": "ROLL"
         }
-      ]
+      ],
+      "excName": "SushiSwap",
+      "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
     },
     "matches": [
       {
@@ -459,7 +509,9 @@
             "decimals": 18,
             "symbol": "ROLL"
           }
-        ]
+        ],
+        "excName": "ApeSwap",
+        "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
       }
     ]
   },
@@ -478,7 +530,9 @@
           "decimals": 18,
           "symbol": "polyGAS"
         }
-      ]
+      ],
+      "excName": "SushiSwap",
+      "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
     },
     "matches": [
       {
@@ -495,7 +549,9 @@
             "decimals": 18,
             "symbol": "polyGAS"
           }
-        ]
+        ],
+        "excName": "ApeSwap",
+        "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
       }
     ]
   },
@@ -514,7 +570,9 @@
           "decimals": 18,
           "symbol": "YELD V2"
         }
-      ]
+      ],
+      "excName": "SushiSwap",
+      "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
     },
     "matches": [
       {
@@ -531,7 +589,9 @@
             "decimals": 18,
             "symbol": "YELD V2"
           }
-        ]
+        ],
+        "excName": "ApeSwap",
+        "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
       }
     ]
   },
@@ -550,7 +610,9 @@
           "decimals": 18,
           "symbol": "MegaDoge"
         }
-      ]
+      ],
+      "excName": "SushiSwap",
+      "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
     },
     "matches": [
       {
@@ -567,7 +629,9 @@
             "decimals": 18,
             "symbol": "MegaDoge"
           }
-        ]
+        ],
+        "excName": "ApeSwap",
+        "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
       }
     ]
   },
@@ -586,7 +650,9 @@
           "decimals": 18,
           "symbol": "CRYSTL"
         }
-      ]
+      ],
+      "excName": "SushiSwap",
+      "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
     },
     "matches": [
       {
@@ -603,7 +669,9 @@
             "decimals": 18,
             "symbol": "CRYSTL"
           }
-        ]
+        ],
+        "excName": "ApeSwap",
+        "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
       }
     ]
   },
@@ -622,7 +690,9 @@
           "decimals": 18,
           "symbol": "COLLAR"
         }
-      ]
+      ],
+      "excName": "SushiSwap",
+      "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
     },
     "matches": [
       {
@@ -639,7 +709,9 @@
             "decimals": 18,
             "symbol": "COLLAR"
           }
-        ]
+        ],
+        "excName": "ApeSwap",
+        "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
       }
     ]
   },
@@ -658,7 +730,9 @@
           "decimals": 18,
           "symbol": "WETH"
         }
-      ]
+      ],
+      "excName": "SushiSwap",
+      "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
     },
     "matches": [
       {
@@ -675,7 +749,9 @@
             "decimals": 18,
             "symbol": "WETH"
           }
-        ]
+        ],
+        "excName": "Honeyswap",
+        "factory": "0xaD340d0CD0B117B0140671E7cB39770e7675C848"
       },
       {
         "id": "0x6cf8654e85ab489ca7e70189046d507eba233613",
@@ -691,7 +767,9 @@
             "decimals": 18,
             "symbol": "WETH"
           }
-        ]
+        ],
+        "excName": "ApeSwap",
+        "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
       }
     ]
   },
@@ -710,7 +788,9 @@
           "decimals": 18,
           "symbol": "FISH"
         }
-      ]
+      ],
+      "excName": "SushiSwap",
+      "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
     },
     "matches": [
       {
@@ -727,7 +807,9 @@
             "decimals": 18,
             "symbol": "FISH"
           }
-        ]
+        ],
+        "excName": "ApeSwap",
+        "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
       }
     ]
   },
@@ -746,7 +828,9 @@
           "decimals": 6,
           "symbol": "USDC"
         }
-      ]
+      ],
+      "excName": "SushiSwap",
+      "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
     },
     "matches": [
       {
@@ -763,7 +847,9 @@
             "decimals": 6,
             "symbol": "USDC"
           }
-        ]
+        ],
+        "excName": "Honeyswap",
+        "factory": "0xaD340d0CD0B117B0140671E7cB39770e7675C848"
       },
       {
         "id": "0x019011032a7ac3a87ee885b6c08467ac46ad11cd",
@@ -779,7 +865,9 @@
             "decimals": 6,
             "symbol": "USDC"
           }
-        ]
+        ],
+        "excName": "ApeSwap",
+        "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
       }
     ]
   },
@@ -798,7 +886,9 @@
           "decimals": 8,
           "symbol": "KOM"
         }
-      ]
+      ],
+      "excName": "SushiSwap",
+      "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
     },
     "matches": [
       {
@@ -815,7 +905,9 @@
             "decimals": 8,
             "symbol": "KOM"
           }
-        ]
+        ],
+        "excName": "ApeSwap",
+        "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
       }
     ]
   },
@@ -834,7 +926,9 @@
           "decimals": 9,
           "symbol": "DOGIRA"
         }
-      ]
+      ],
+      "excName": "SushiSwap",
+      "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
     },
     "matches": [
       {
@@ -851,7 +945,9 @@
             "decimals": 9,
             "symbol": "DOGIRA"
           }
-        ]
+        ],
+        "excName": "ApeSwap",
+        "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
       }
     ]
   },
@@ -870,7 +966,9 @@
           "decimals": 18,
           "symbol": "YELD"
         }
-      ]
+      ],
+      "excName": "SushiSwap",
+      "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
     },
     "matches": [
       {
@@ -887,7 +985,9 @@
             "decimals": 18,
             "symbol": "YELD"
           }
-        ]
+        ],
+        "excName": "ApeSwap",
+        "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
       }
     ]
   },
@@ -906,7 +1006,9 @@
           "decimals": 18,
           "symbol": "OMEN"
         }
-      ]
+      ],
+      "excName": "SushiSwap",
+      "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
     },
     "matches": [
       {
@@ -923,7 +1025,9 @@
             "decimals": 18,
             "symbol": "OMEN"
           }
-        ]
+        ],
+        "excName": "ApeSwap",
+        "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
       }
     ]
   },
@@ -942,7 +1046,9 @@
           "decimals": 18,
           "symbol": "SX"
         }
-      ]
+      ],
+      "excName": "SushiSwap",
+      "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
     },
     "matches": [
       {
@@ -959,7 +1065,9 @@
             "decimals": 18,
             "symbol": "SX"
           }
-        ]
+        ],
+        "excName": "ApeSwap",
+        "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
       }
     ]
   },
@@ -978,7 +1086,9 @@
           "decimals": 18,
           "symbol": "WMATIC"
         }
-      ]
+      ],
+      "excName": "SushiSwap",
+      "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
     },
     "matches": [
       {
@@ -995,7 +1105,9 @@
             "decimals": 18,
             "symbol": "WMATIC"
           }
-        ]
+        ],
+        "excName": "ApeSwap",
+        "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
       }
     ]
   },
@@ -1014,7 +1126,9 @@
           "decimals": 6,
           "symbol": "USDT"
         }
-      ]
+      ],
+      "excName": "Honeyswap",
+      "factory": "0xaD340d0CD0B117B0140671E7cB39770e7675C848"
     },
     "matches": [
       {
@@ -1031,7 +1145,9 @@
             "decimals": 6,
             "symbol": "USDT"
           }
-        ]
+        ],
+        "excName": "SushiSwap",
+        "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
       },
       {
         "id": "0x65d43b64e3b31965cd5ea367d4c2b94c03084797",
@@ -1047,7 +1163,9 @@
             "decimals": 6,
             "symbol": "USDT"
           }
-        ]
+        ],
+        "excName": "ApeSwap",
+        "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
       }
     ]
   },
@@ -1066,7 +1184,9 @@
           "decimals": 18,
           "symbol": "INST"
         }
-      ]
+      ],
+      "excName": "Honeyswap",
+      "factory": "0xaD340d0CD0B117B0140671E7cB39770e7675C848"
     },
     "matches": [
       {
@@ -1083,7 +1203,9 @@
             "decimals": 18,
             "symbol": "INST"
           }
-        ]
+        ],
+        "excName": "SushiSwap",
+        "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
       }
     ]
   },
@@ -1102,7 +1224,9 @@
           "decimals": 6,
           "symbol": "USDC"
         }
-      ]
+      ],
+      "excName": "Honeyswap",
+      "factory": "0xaD340d0CD0B117B0140671E7cB39770e7675C848"
     },
     "matches": [
       {
@@ -1119,7 +1243,9 @@
             "decimals": 6,
             "symbol": "USDC"
           }
-        ]
+        ],
+        "excName": "SushiSwap",
+        "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
       },
       {
         "id": "0x019011032a7ac3a87ee885b6c08467ac46ad11cd",
@@ -1135,7 +1261,9 @@
             "decimals": 6,
             "symbol": "USDC"
           }
-        ]
+        ],
+        "excName": "ApeSwap",
+        "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
       }
     ]
   },
@@ -1154,7 +1282,9 @@
           "decimals": 18,
           "symbol": "DAI"
         }
-      ]
+      ],
+      "excName": "Honeyswap",
+      "factory": "0xaD340d0CD0B117B0140671E7cB39770e7675C848"
     },
     "matches": [
       {
@@ -1171,7 +1301,9 @@
             "decimals": 18,
             "symbol": "DAI"
           }
-        ]
+        ],
+        "excName": "SushiSwap",
+        "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
       },
       {
         "id": "0xd32f3139a214034a0f9777c87ee0a064c1ff6ae2",
@@ -1187,7 +1319,9 @@
             "decimals": 18,
             "symbol": "DAI"
           }
-        ]
+        ],
+        "excName": "ApeSwap",
+        "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
       }
     ]
   },
@@ -1206,7 +1340,9 @@
           "decimals": 18,
           "symbol": "WETH"
         }
-      ]
+      ],
+      "excName": "Honeyswap",
+      "factory": "0xaD340d0CD0B117B0140671E7cB39770e7675C848"
     },
     "matches": [
       {
@@ -1223,7 +1359,9 @@
             "decimals": 18,
             "symbol": "WETH"
           }
-        ]
+        ],
+        "excName": "SushiSwap",
+        "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
       },
       {
         "id": "0x6cf8654e85ab489ca7e70189046d507eba233613",
@@ -1239,7 +1377,9 @@
             "decimals": 18,
             "symbol": "WETH"
           }
-        ]
+        ],
+        "excName": "ApeSwap",
+        "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
       }
     ]
   },
@@ -1258,7 +1398,9 @@
           "decimals": 6,
           "symbol": "USDC"
         }
-      ]
+      ],
+      "excName": "ApeSwap",
+      "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
     },
     "matches": [
       {
@@ -1275,7 +1417,9 @@
             "decimals": 6,
             "symbol": "USDC"
           }
-        ]
+        ],
+        "excName": "SushiSwap",
+        "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
       },
       {
         "id": "0x86b7249272fabb82ef36550ef898ea539225e7f0",
@@ -1291,7 +1435,9 @@
             "decimals": 6,
             "symbol": "USDC"
           }
-        ]
+        ],
+        "excName": "Honeyswap",
+        "factory": "0xaD340d0CD0B117B0140671E7cB39770e7675C848"
       }
     ]
   },
@@ -1310,7 +1456,9 @@
           "decimals": 8,
           "symbol": "KOM"
         }
-      ]
+      ],
+      "excName": "ApeSwap",
+      "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
     },
     "matches": [
       {
@@ -1327,7 +1475,9 @@
             "decimals": 8,
             "symbol": "KOM"
           }
-        ]
+        ],
+        "excName": "SushiSwap",
+        "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
       }
     ]
   },
@@ -1346,7 +1496,9 @@
           "decimals": 9,
           "symbol": "DOGIRA"
         }
-      ]
+      ],
+      "excName": "ApeSwap",
+      "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
     },
     "matches": [
       {
@@ -1363,7 +1515,9 @@
             "decimals": 9,
             "symbol": "DOGIRA"
           }
-        ]
+        ],
+        "excName": "SushiSwap",
+        "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
       }
     ]
   },
@@ -1382,7 +1536,9 @@
           "decimals": 18,
           "symbol": "WMATIC"
         }
-      ]
+      ],
+      "excName": "ApeSwap",
+      "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
     },
     "matches": [
       {
@@ -1399,7 +1555,9 @@
             "decimals": 18,
             "symbol": "WMATIC"
           }
-        ]
+        ],
+        "excName": "SushiSwap",
+        "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
       }
     ]
   },
@@ -1418,7 +1576,9 @@
           "decimals": 18,
           "symbol": "polyGAS"
         }
-      ]
+      ],
+      "excName": "ApeSwap",
+      "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
     },
     "matches": [
       {
@@ -1435,7 +1595,9 @@
             "decimals": 18,
             "symbol": "polyGAS"
           }
-        ]
+        ],
+        "excName": "SushiSwap",
+        "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
       }
     ]
   },
@@ -1454,7 +1616,9 @@
           "decimals": 18,
           "symbol": "AAVE"
         }
-      ]
+      ],
+      "excName": "ApeSwap",
+      "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
     },
     "matches": [
       {
@@ -1471,7 +1635,9 @@
             "decimals": 18,
             "symbol": "AAVE"
           }
-        ]
+        ],
+        "excName": "SushiSwap",
+        "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
       }
     ]
   },
@@ -1490,7 +1656,9 @@
           "decimals": 18,
           "symbol": "COLLAR"
         }
-      ]
+      ],
+      "excName": "ApeSwap",
+      "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
     },
     "matches": [
       {
@@ -1507,7 +1675,9 @@
             "decimals": 18,
             "symbol": "COLLAR"
           }
-        ]
+        ],
+        "excName": "SushiSwap",
+        "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
       }
     ]
   },
@@ -1526,7 +1696,9 @@
           "decimals": 18,
           "symbol": "PolyDoge"
         }
-      ]
+      ],
+      "excName": "ApeSwap",
+      "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
     },
     "matches": [
       {
@@ -1543,7 +1715,9 @@
             "decimals": 18,
             "symbol": "PolyDoge"
           }
-        ]
+        ],
+        "excName": "SushiSwap",
+        "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
       }
     ]
   },
@@ -1562,7 +1736,9 @@
           "decimals": 18,
           "symbol": "FISH"
         }
-      ]
+      ],
+      "excName": "ApeSwap",
+      "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
     },
     "matches": [
       {
@@ -1579,7 +1755,9 @@
             "decimals": 18,
             "symbol": "FISH"
           }
-        ]
+        ],
+        "excName": "SushiSwap",
+        "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
       }
     ]
   },
@@ -1598,7 +1776,9 @@
           "decimals": 18,
           "symbol": "ROLL"
         }
-      ]
+      ],
+      "excName": "ApeSwap",
+      "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
     },
     "matches": [
       {
@@ -1615,7 +1795,9 @@
             "decimals": 18,
             "symbol": "ROLL"
           }
-        ]
+        ],
+        "excName": "SushiSwap",
+        "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
       }
     ]
   },
@@ -1634,7 +1816,9 @@
           "decimals": 6,
           "symbol": "USDT"
         }
-      ]
+      ],
+      "excName": "ApeSwap",
+      "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
     },
     "matches": [
       {
@@ -1651,7 +1835,9 @@
             "decimals": 6,
             "symbol": "USDT"
           }
-        ]
+        ],
+        "excName": "SushiSwap",
+        "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
       },
       {
         "id": "0x218e468b15469228f35b0e7f88425cd45fb982bd",
@@ -1667,7 +1853,9 @@
             "decimals": 6,
             "symbol": "USDT"
           }
-        ]
+        ],
+        "excName": "Honeyswap",
+        "factory": "0xaD340d0CD0B117B0140671E7cB39770e7675C848"
       }
     ]
   },
@@ -1686,7 +1874,9 @@
           "decimals": 18,
           "symbol": "WETH"
         }
-      ]
+      ],
+      "excName": "ApeSwap",
+      "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
     },
     "matches": [
       {
@@ -1703,7 +1893,9 @@
             "decimals": 18,
             "symbol": "WETH"
           }
-        ]
+        ],
+        "excName": "SushiSwap",
+        "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
       },
       {
         "id": "0xeae495187472b8db83cf9dc738ba3869fde5b1d3",
@@ -1719,7 +1911,9 @@
             "decimals": 18,
             "symbol": "WETH"
           }
-        ]
+        ],
+        "excName": "Honeyswap",
+        "factory": "0xaD340d0CD0B117B0140671E7cB39770e7675C848"
       }
     ]
   },
@@ -1738,7 +1932,9 @@
           "decimals": 18,
           "symbol": "OMEN"
         }
-      ]
+      ],
+      "excName": "ApeSwap",
+      "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
     },
     "matches": [
       {
@@ -1755,7 +1951,9 @@
             "decimals": 18,
             "symbol": "OMEN"
           }
-        ]
+        ],
+        "excName": "SushiSwap",
+        "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
       }
     ]
   },
@@ -1774,7 +1972,9 @@
           "decimals": 18,
           "symbol": "YELD V2"
         }
-      ]
+      ],
+      "excName": "ApeSwap",
+      "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
     },
     "matches": [
       {
@@ -1791,7 +1991,9 @@
             "decimals": 18,
             "symbol": "YELD V2"
           }
-        ]
+        ],
+        "excName": "SushiSwap",
+        "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
       }
     ]
   },
@@ -1810,7 +2012,9 @@
           "decimals": 18,
           "symbol": "CRV"
         }
-      ]
+      ],
+      "excName": "ApeSwap",
+      "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
     },
     "matches": [
       {
@@ -1827,7 +2031,9 @@
             "decimals": 18,
             "symbol": "CRV"
           }
-        ]
+        ],
+        "excName": "SushiSwap",
+        "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
       }
     ]
   },
@@ -1846,7 +2052,9 @@
           "decimals": 18,
           "symbol": "LINK"
         }
-      ]
+      ],
+      "excName": "ApeSwap",
+      "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
     },
     "matches": [
       {
@@ -1863,7 +2071,9 @@
             "decimals": 18,
             "symbol": "LINK"
           }
-        ]
+        ],
+        "excName": "SushiSwap",
+        "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
       }
     ]
   },
@@ -1882,7 +2092,9 @@
           "decimals": 18,
           "symbol": "CRYSTL"
         }
-      ]
+      ],
+      "excName": "ApeSwap",
+      "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
     },
     "matches": [
       {
@@ -1899,7 +2111,9 @@
             "decimals": 18,
             "symbol": "CRYSTL"
           }
-        ]
+        ],
+        "excName": "SushiSwap",
+        "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
       }
     ]
   },
@@ -1918,7 +2132,9 @@
           "decimals": 18,
           "symbol": "BONE"
         }
-      ]
+      ],
+      "excName": "ApeSwap",
+      "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
     },
     "matches": [
       {
@@ -1935,7 +2151,9 @@
             "decimals": 18,
             "symbol": "BONE"
           }
-        ]
+        ],
+        "excName": "SushiSwap",
+        "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
       }
     ]
   },
@@ -1954,7 +2172,9 @@
           "decimals": 18,
           "symbol": "MegaDoge"
         }
-      ]
+      ],
+      "excName": "ApeSwap",
+      "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
     },
     "matches": [
       {
@@ -1971,7 +2191,9 @@
             "decimals": 18,
             "symbol": "MegaDoge"
           }
-        ]
+        ],
+        "excName": "SushiSwap",
+        "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
       }
     ]
   },
@@ -1990,7 +2212,9 @@
           "decimals": 18,
           "symbol": "YELD"
         }
-      ]
+      ],
+      "excName": "ApeSwap",
+      "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
     },
     "matches": [
       {
@@ -2007,7 +2231,9 @@
             "decimals": 18,
             "symbol": "YELD"
           }
-        ]
+        ],
+        "excName": "SushiSwap",
+        "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
       }
     ]
   },
@@ -2026,7 +2252,9 @@
           "decimals": 18,
           "symbol": "DAI"
         }
-      ]
+      ],
+      "excName": "ApeSwap",
+      "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
     },
     "matches": [
       {
@@ -2043,7 +2271,9 @@
             "decimals": 18,
             "symbol": "DAI"
           }
-        ]
+        ],
+        "excName": "SushiSwap",
+        "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
       },
       {
         "id": "0xcba9d57e29ab4eeb9aa69cd82f93b64505055a3b",
@@ -2059,7 +2289,9 @@
             "decimals": 18,
             "symbol": "DAI"
           }
-        ]
+        ],
+        "excName": "Honeyswap",
+        "factory": "0xaD340d0CD0B117B0140671E7cB39770e7675C848"
       }
     ]
   },
@@ -2078,7 +2310,9 @@
           "decimals": 8,
           "symbol": "WBTC"
         }
-      ]
+      ],
+      "excName": "ApeSwap",
+      "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
     },
     "matches": [
       {
@@ -2095,7 +2329,9 @@
             "decimals": 8,
             "symbol": "WBTC"
           }
-        ]
+        ],
+        "excName": "SushiSwap",
+        "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
       }
     ]
   },
@@ -2114,7 +2350,9 @@
           "decimals": 18,
           "symbol": "YIELD"
         }
-      ]
+      ],
+      "excName": "ApeSwap",
+      "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
     },
     "matches": [
       {
@@ -2131,7 +2369,9 @@
             "decimals": 18,
             "symbol": "YIELD"
           }
-        ]
+        ],
+        "excName": "SushiSwap",
+        "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
       }
     ]
   },
@@ -2150,7 +2390,9 @@
           "decimals": 18,
           "symbol": "WSPP"
         }
-      ]
+      ],
+      "excName": "ApeSwap",
+      "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
     },
     "matches": [
       {
@@ -2167,7 +2409,9 @@
             "decimals": 18,
             "symbol": "WSPP"
           }
-        ]
+        ],
+        "excName": "SushiSwap",
+        "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
       }
     ]
   },
@@ -2186,7 +2430,9 @@
           "decimals": 18,
           "symbol": "SX"
         }
-      ]
+      ],
+      "excName": "ApeSwap",
+      "factory": "0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"
     },
     "matches": [
       {
@@ -2203,7 +2449,9 @@
             "decimals": 18,
             "symbol": "SX"
           }
-        ]
+        ],
+        "excName": "SushiSwap",
+        "factory": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
       }
     ]
   }
